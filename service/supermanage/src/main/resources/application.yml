@@ -1,0 +1,6 @@
+#mybatis-plus的配置
+mybatis-plus:
+  mapper-locations: classpath:com/iot/manageservice/mapper/xml/*.xml
+  type-aliases-package: com.iot.manageservice.pojo
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
