@@ -34,6 +34,7 @@ public class UserController {
     public ResultBean exten() {
 
         try {
+            //我改了一次
           int i = 1/0;
         } catch (Exception e) {
 
