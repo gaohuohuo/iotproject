@@ -17,5 +17,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/manageservice/advertisement")
 public class AdvertisementController {
 
+    //我改一下
+
+
 }
 
