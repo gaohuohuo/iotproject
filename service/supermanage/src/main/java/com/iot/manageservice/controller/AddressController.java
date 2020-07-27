@@ -25,7 +25,6 @@ import java.util.Map;
 @RestController
 @RequestMapping("/manageservice/address")
 public class AddressController {
-
     @Autowired
     private AddressService addressService;
 //vffg
