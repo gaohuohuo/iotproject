@@ -24,16 +24,6 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @GetMapping("init")
-    public ResultBean init(){
-        return ResultBean.ok().message("这是一个描述").data("users",userService.list(null));
-    }
-
-
-    @GetMapping("init2")
-    public ResultBean init1(){
-        return ResultBean.ok().message("这是一个描述").data("users",userService.list(null));
-    }
 
 }
 
